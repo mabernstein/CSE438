@@ -14,7 +14,14 @@
 		5450702C2152F6DA00BB4DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5450702A2152F6DA00BB4DF0 /* LaunchScreen.storyboard */; };
 		545070372152F6DA00BB4DF0 /* MaxBernstein_Lab2_3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545070362152F6DA00BB4DF0 /* MaxBernstein_Lab2_3_Tests.swift */; };
 		545070422152F6DA00BB4DF0 /* MaxBernstein_Lab2_3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545070412152F6DA00BB4DF0 /* MaxBernstein_Lab2_3_UITests.swift */; };
+		54699ECB2159E88C0014B5CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54699ECA2159E88C0014B5CF /* AVFoundation.framework */; };
+		54699ECD2159EBB80014B5CF /* Dogbark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54699ECC2159EBB80014B5CF /* Dogbark.mp3 */; };
+		54699ECF2159ED570014B5CF /* Catmeow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54699ECE2159ED570014B5CF /* Catmeow.mp3 */; };
+		54699ED12159ED660014B5CF /* Bird2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54699ED02159ED660014B5CF /* Bird2.mp3 */; };
+		54699ED52159ED840014B5CF /* Bouncy_Bounce-Bugs_Bunny-1735935456.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54699ED42159ED840014B5CF /* Bouncy_Bounce-Bugs_Bunny-1735935456.mp3 */; };
+		54699ED72159F0000014B5CF /* Bubbling-SoundBible.com-1684132696.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54699ED62159EFFF0014B5CF /* Bubbling-SoundBible.com-1684132696.mp3 */; };
 		5492ED74215930CF002E8B68 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492ED73215930CF002E8B68 /* DisplayView.swift */; };
+		5492ED7621599819002E8B68 /* thisPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492ED7521599819002E8B68 /* thisPet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +55,14 @@
 		5450703D2152F6DA00BB4DF0 /* MaxBernstein-Lab2(3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaxBernstein-Lab2(3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		545070412152F6DA00BB4DF0 /* MaxBernstein_Lab2_3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxBernstein_Lab2_3_UITests.swift; sourceTree = "<group>"; };
 		545070432152F6DA00BB4DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54699ECA2159E88C0014B5CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54699ECC2159EBB80014B5CF /* Dogbark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dogbark.mp3; path = ../../petSounds/Dogbark.mp3; sourceTree = "<group>"; };
+		54699ECE2159ED570014B5CF /* Catmeow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Catmeow.mp3; path = ../../petSounds/Catmeow.mp3; sourceTree = "<group>"; };
+		54699ED02159ED660014B5CF /* Bird2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bird2.mp3; path = ../../petSounds/Bird2.mp3; sourceTree = "<group>"; };
+		54699ED42159ED840014B5CF /* Bouncy_Bounce-Bugs_Bunny-1735935456.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Bouncy_Bounce-Bugs_Bunny-1735935456.mp3"; path = "../../petSounds/Bouncy_Bounce-Bugs_Bunny-1735935456.mp3"; sourceTree = "<group>"; };
+		54699ED62159EFFF0014B5CF /* Bubbling-SoundBible.com-1684132696.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Bubbling-SoundBible.com-1684132696.mp3"; path = "../../petSounds/Bubbling-SoundBible.com-1684132696.mp3"; sourceTree = "<group>"; };
 		5492ED73215930CF002E8B68 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		5492ED7521599819002E8B68 /* thisPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisPet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54699ECB2159E88C0014B5CF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,7 @@
 				545070352152F6DA00BB4DF0 /* MaxBernstein-Lab2(3)Tests */,
 				545070402152F6DA00BB4DF0 /* MaxBernstein-Lab2(3)UITests */,
 				5450701F2152F6D900BB4DF0 /* Products */,
+				54699EC92159E88C0014B5CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +119,15 @@
 				545070232152F6D900BB4DF0 /* ViewController.swift */,
 				545070252152F6D900BB4DF0 /* Main.storyboard */,
 				5492ED73215930CF002E8B68 /* DisplayView.swift */,
+				5492ED7521599819002E8B68 /* thisPet.swift */,
 				545070282152F6DA00BB4DF0 /* Assets.xcassets */,
 				5450702A2152F6DA00BB4DF0 /* LaunchScreen.storyboard */,
 				5450702D2152F6DA00BB4DF0 /* Info.plist */,
+				54699ECC2159EBB80014B5CF /* Dogbark.mp3 */,
+				54699ECE2159ED570014B5CF /* Catmeow.mp3 */,
+				54699ED02159ED660014B5CF /* Bird2.mp3 */,
+				54699ED42159ED840014B5CF /* Bouncy_Bounce-Bugs_Bunny-1735935456.mp3 */,
+				54699ED62159EFFF0014B5CF /* Bubbling-SoundBible.com-1684132696.mp3 */,
 			);
 			path = "MaxBernstein-Lab2(3)";
 			sourceTree = "<group>";
@@ -126,6 +148,14 @@
 				545070432152F6DA00BB4DF0 /* Info.plist */,
 			);
 			path = "MaxBernstein-Lab2(3)UITests";
+			sourceTree = "<group>";
+		};
+		54699EC92159E88C0014B5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54699ECA2159E88C0014B5CF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +265,11 @@
 				5450702C2152F6DA00BB4DF0 /* LaunchScreen.storyboard in Resources */,
 				545070292152F6DA00BB4DF0 /* Assets.xcassets in Resources */,
 				545070272152F6D900BB4DF0 /* Main.storyboard in Resources */,
+				54699ECF2159ED570014B5CF /* Catmeow.mp3 in Resources */,
+				54699ED12159ED660014B5CF /* Bird2.mp3 in Resources */,
+				54699ED72159F0000014B5CF /* Bubbling-SoundBible.com-1684132696.mp3 in Resources */,
+				54699ED52159ED840014B5CF /* Bouncy_Bounce-Bugs_Bunny-1735935456.mp3 in Resources */,
+				54699ECD2159EBB80014B5CF /* Dogbark.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5492ED74215930CF002E8B68 /* DisplayView.swift in Sources */,
+				5492ED7621599819002E8B68 /* thisPet.swift in Sources */,
 				545070242152F6D900BB4DF0 /* ViewController.swift in Sources */,
 				545070222152F6D900BB4DF0 /* AppDelegate.swift in Sources */,
 			);
